@@ -7,7 +7,6 @@ body {
 img {
   width: 150px;
   display: inline-block;
-  margin-right: 150px;
 }
 header {
   background-color: blue;
@@ -74,8 +73,14 @@ p {
   color: beige;
   font-weight: bold;
 }
-.movies {
-  margin: 20px 40px;
+.flex-movies {
   display: flex;
-  padding: 70px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: Inset 10px #aeaeae;
+  width: 75%;
+  max-width: 1100px;
+}
+div {
+  padding: 20px;
 }
